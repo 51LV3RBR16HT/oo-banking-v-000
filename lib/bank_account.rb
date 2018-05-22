@@ -1,5 +1,5 @@
 class BankAccount
-  
+
   attr_accessor :balance, :status
   attr_reader :name
 
@@ -7,8 +7,10 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
+  end
 
-
+  def deposit
+    
   end
 
 end
