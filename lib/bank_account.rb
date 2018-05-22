@@ -17,6 +17,14 @@ class BankAccount
     "Your balance is $#{self.balance}."
   end
 
+  # def valid?
+  #
+  # end
+
+  def close_account
+    
+
+  end
 
 
 end
