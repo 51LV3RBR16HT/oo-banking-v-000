@@ -5,13 +5,13 @@ class BankAccount
 
   def initialize(name)
     @name = name
-    @balance = 1000
+    @balance = balance
     @status = "open"
   end
 
   def deposit(transfer)
     @balance << transfer
-    
+
   end
 
   def display_balance
