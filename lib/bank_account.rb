@@ -11,7 +11,7 @@ class BankAccount
 
   def deposit(transfer)
     @balance << transfer
-    transfer.amount << self
+    
   end
 
   def display_balance
