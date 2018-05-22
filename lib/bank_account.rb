@@ -19,10 +19,9 @@ class BankAccount
   # def valid?
   # end
 
-  def close_account(status)
-    status = "closed"
+  def close_account(status = "closed")
     self.status
-    status
+
 
   end
 
