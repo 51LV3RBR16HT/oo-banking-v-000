@@ -18,6 +18,5 @@ class BankAccount
   end
 
 
-  end
 
 end
