@@ -20,13 +20,11 @@ class BankAccount
   # end
 
   def close_account(status)
-    if balance == 0
+    if @balance == 0
       puts "closed"
     else
       puts "open"
     end
-
-
   end
 
 
