@@ -9,9 +9,10 @@ class BankAccount
     @status = "open"
   end
 
-  # def deposit(transfer)
-  #   @balance << transfer
-  # end
+  def deposit(transfer)
+    @balance << transfer
+    transfer.amount << self
+  end
 
   def display_balance
     "Your balance is $#{self.balance}."
