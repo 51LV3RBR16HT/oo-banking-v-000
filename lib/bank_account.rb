@@ -19,8 +19,12 @@ class BankAccount
   # def valid?
   # end
 
-  def close_account(status = "closed")
-    self.status
+  def close_account(status)
+    if balance == 0
+      puts "closed"
+    else
+      puts "open"
+    end
 
 
   end
