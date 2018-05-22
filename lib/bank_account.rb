@@ -9,7 +9,7 @@ class BankAccount
     @status = "open"
   end
 
-  def deposit
+  def deposit(balance)
     deposit = 1000
     @balance << deposit
 
